@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package xerr.v1;
+
+import "errors/errors.proto";
+
+// 多语言特定包名，用于源代码引用
+option go_package = "./api/xerr;xerr";
+
+enum Reason {
+  option (errors.default_code) = 500;
+
+  // 鉴权错误包括:token错误、token过期、token无效、无权限访问等
+  AUTH = 0 [(errors.code) = 401];
+
+  // 数据操作错误包括:数据不存在、数据已存在、数据已删除等
+  DB_OPTION = 4 [(errors.code) = 403];
+}
