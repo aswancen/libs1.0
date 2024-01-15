@@ -3,7 +3,7 @@ package share
 import (
 	"context"
 	"fmt"
-	"github.com/aswancen/libs/pkg/xmw"
+	"github.com/aswancen/libs1.0/pkg/xmw"
 )
 
 // GetRpcToken 获取Token

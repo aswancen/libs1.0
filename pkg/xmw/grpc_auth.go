@@ -3,7 +3,7 @@ package xmw
 import (
 	"context"
 
-	"github.com/aswancen/libs/api/xerr"
+	"github.com/aswancen/libs1.0/api/xerr"
 	"github.com/go-kratos/kratos/v2/metadata"
 	"github.com/go-kratos/kratos/v2/middleware"
 )

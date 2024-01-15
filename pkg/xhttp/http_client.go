@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aswancen/libs/pkg/xlogger"
+	"github.com/aswancen/libs1.0/pkg/xlogger"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-resty/resty/v2"
 )
